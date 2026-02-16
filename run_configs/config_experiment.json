@@ -1,0 +1,9 @@
+{
+  "model_name": "IA-MPPN",
+  "experiment_name": "IA-MPPN Datasets AB1",
+  "run_name": "Domesticdeclarations",
+  "description": "This is a default experiment configuration.",
+  "device": "cuda",
+  "seed": 42,
+  "console_messages": true
+}

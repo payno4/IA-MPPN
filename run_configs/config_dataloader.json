@@ -1,0 +1,34 @@
+{
+  "h5_file_name": "DomesticDeclarations",
+  "dataset_name": "input_1",
+  "weighted_sampler": false,
+  "bins": 100,
+  "transform": "none",
+  "train_dataloader": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "shuffle": false,
+    "pin_memory": true,
+    "pin_memory_device": "cuda",
+    "persistent_workers": true,
+    "drop_last": false
+  },
+  "test_dataloader": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "shuffle": false,
+    "pin_memory": true,
+    "pin_memory_device": "cuda",
+    "persistent_workers": true,
+    "drop_last": true
+  },
+  "validation_dataloader": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "shuffle": false,
+    "pin_memory": true,
+    "pin_memory_device": "cuda",
+    "persistent_workers": true,
+    "drop_last": false
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "h5_file_name": "DomesticDeclarations",
+  "split_idxs": [0.7, 0.25, 0.05],
+  "trace_duration_conversion": "hours"
+}

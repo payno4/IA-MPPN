@@ -1,0 +1,21 @@
+{
+  "perspective_model_config": {
+    "patches": {
+      "size": [9, 9]
+    },
+    "hidden_size": 256,
+    "mlp_dim": 512,
+    "num_heads": 8,
+    "num_layers": 8,
+    "attention_dropout_rate": 0.05,
+    "dropout_rate": 0.05
+  },
+  "relation_model_config": {
+    "hidden_size": 256,
+    "num_hidden_layers": 8,
+    "num_attention_heads": 8,
+    "mlp_dim": 512,
+    "attention_dropout_rate": 0.05
+  },
+  "ablation_mode": 0
+}

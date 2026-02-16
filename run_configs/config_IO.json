@@ -1,0 +1,12 @@
+{
+  "static_dir": "./static/",
+  "optimizer_dir": "/optimizer_states/",
+  "mlflow_dir": "/mlflow/",
+  "checkpoints_dir": "/checkpoints/",
+  "h5_dir": "/h5_files/",
+  "raw_data_dir": "/raw_data/",
+  "analysis_dir": "/analysis/",
+  "push_prototypes_dir": "/prototypes/",
+  "pretrained_models_dir": "/pretrained_models/",
+  "configs_dir": "configs/"
+}

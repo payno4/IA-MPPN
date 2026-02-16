@@ -1,0 +1,13 @@
+{
+  "optim": {
+    "study_name": "IA-MPPN optimization study",
+    "results_file_name": "IA-MPPN optimization study",
+    "n_trials": 12,
+    "max_train_epochs": 250,
+    "model_type": "IA-MPPN"
+  },
+  "evaluation": {
+    "model_path_1": "./static/checkpoints/best_IA_MPPN_DomesticDec.ckpt",
+    "model_type": "IA-MPPN"
+  }
+}
