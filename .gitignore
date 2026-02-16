@@ -1,0 +1,40 @@
+# Python standard
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.env
+
+# Virtual environment
+venv/
+.venv/
+
+# pictures
+*.png
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#static files like h5, css, tensorboard
+static/
+
+#test files
+#run.py
+
+
+#mlflow files and checkpoints
+/static/
+
+/results/
+
+# output files
+*out
