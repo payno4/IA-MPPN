@@ -12,7 +12,7 @@ import torch
 import torch.nn.functional as F
 
 from config.configs import Configs
-from evaluation.qualitative_metrics import (
+from evaluation.quantitative_metrics import (
     deletion_insertion_metric,
     plot_del_ins_diff,
     plot_deletion_insertion_curves,
