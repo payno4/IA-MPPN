@@ -10,9 +10,6 @@ __pycache__/
 venv/
 .venv/
 
-# pictures
-*.png
-
 # IDE and editor files
 .vscode/
 .idea/
@@ -24,14 +21,8 @@ venv/
 Thumbs.db
 desktop.ini
 
-#static files like h5, css, tensorboard
+#static files
 static/
-
-#test files
-#run.py
-
-
-#mlflow files and checkpoints
 /static/
 
 /results/
